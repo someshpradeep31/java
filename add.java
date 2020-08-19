@@ -14,6 +14,6 @@ System.out.println(c);
 class Main{
 public static void main(String a[]){
 Add o=new Add(2,3,4);
-System.out.println(o.display());
+System.out.println(o.display);
 }
 }
