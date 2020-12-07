@@ -11,6 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'javac concat.java'
+                sh 'java JavaConcat'
             }
         }
     }   
